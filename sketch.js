@@ -10,7 +10,9 @@ function setup(){
     engine= Engine.create();
     world= engine.world;
 
-    criminal1= new Criminal(500,500,PI/2);
+    criminal1= new Criminal(300,300,150,mouseX);
+    shooter= new Shooter(200,700,125);
+    hostage= new Hostage(500,500,175);
 }
 
 function draw(){    
@@ -18,4 +20,6 @@ function draw(){
     Engine.update(engine);
 
     criminal1.display();
+    shooter.display();
+    hostage.display();
 }
