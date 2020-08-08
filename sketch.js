@@ -13,6 +13,7 @@ var database;
 var reset;
 var board;
 var allPlayers;
+var pawns=[];
 var pawn1, pawn2,pawn3, pawn4;
 var pawn1_img, pawn2_img,pawn3_img, pawn4_img;
 
@@ -47,7 +48,13 @@ function setup(){
         board.start();
         
       //  }
-        //  /game.play();
+         //game.play();
+
+        
+        pawn1= new Pawn(100,140,"pic/green.png");
+        pawn2= new Pawn(130,140,"pic/red.png");
+        pawn3= new Pawn(160,140,"pic/yellow.png");
+        pawn4= new Pawn(140,120,"pic/blue.png");
         
     }
     
@@ -56,13 +63,13 @@ function setup(){
             if(playerCount <= 4){
                 background(0);
                 board.display();
-                game.play();
-             //game.play();
+                
             } 
     }
-
+    
     Engine.update(engine);
 
+    //game.play();
     // if(gameState===2){
         
     // }
@@ -78,5 +85,26 @@ function setup(){
             gameState:0
         })
     })
+
+    if(playerCount===1 && gameState===2){
+        pawn1.display();
+    }
+    if(playerCount===2 && gameState===2){
+        pawn1.display();
+        pawn2.display();
+    }
+    if(playerCount===3 && gameState===2){
+        pawn1.display();
+        pawn2.display();
+        pawn3.display();
+    }
+    if(playerCount===4 && gameState===2){
+        pawn1.display();
+        pawn2.display();
+        pawn3.display();
+        pawn4.display();
+    }   
+
+   // drawSprites();
     
 }

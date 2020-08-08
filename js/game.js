@@ -29,23 +29,44 @@ class Game{
             form.display();   
         }
 
-        if(playerCount===1){
-            pawn1.addImage("pawn1",pawn1_img);
-        }
+        
     }
 
-    play(){
-    //     //if(gameState===2){
-    //         board=new Board();
-    //         board.start();
-    //         board.display();
+    // play(){
+    // //     //if(gameState===2){
+    // //         board=new Board();
+    // //         board.start();
+    // //         board.display();
+    // //     //}
+
+    // //if(playerCount===1){
+    //     // pawn1= new Pawn(50,50,"pic/green.png");
+    // //}
+
+    //     //Player.getPlayerInfo();
+    //     //if(allPlayers!==undefined){
+    //         // var index=0;
+
+    //         // var x;
+    //         // var y=50;
+
+    //         // pawns[index].x=x;
+    //         // pawns[index].y=y;
+
+
+    //         // for(var plr in allPlayers){
+    //         //     index+=1;
+    //         //     y=y+30;
+                
+    //         //     if(index===player.index){
+    //         //         text(player.name,x,y);
+    //         //     }
+    //         // }
+
+            
     //     //}
-
-        Player.getPlayerInfo();
-        if(allPlayers!==undefined){
-            var 
-        }
-    }
+    //     //drawSprite();
+    // }
 
 
 }

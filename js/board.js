@@ -14,7 +14,7 @@ class Board{
             un= new Baseclass(1370,100,200,200,"pic/un.png");
             sdg8= new Baseclass(1350,275,150,150,"pic/sdg8.png");
             sdg9= new Baseclass(1350,425,150,150,"pic/sdg9.png");
-            law= new Baseclass(1370,750,200,200,"pic/law.png");
+            law= new Baseclass(1370,750,150,150,"pic/law.png");
             sdg10= new Baseclass(1200,750,150,150,"pic/sdg10.png");
             sdg11= new Baseclass(1050,750,150,150,"pic/sdg11.png");
             sdg12= new Baseclass(900,750,150,150,"pic/sdg12.png");
@@ -22,9 +22,9 @@ class Board{
             sdg14= new Baseclass(450,750,150,150,"pic/sdg14.png");
             sdg15= new Baseclass(300,750,150,150,"pic/sdg15.png");
             reward= new Baseclass(125,725,200,200,"pic/reward.png");
-            sdg16= new Baseclass(150,550,150,150,"pic/sdg16.png");
-            sdg17= new Baseclass(150,400,150,150,"pic/sdg17.png");
-            start= new Baseclass(150,250,150,150,"pic/start.png");
+            sdg16= new Baseclass(125,550,150,150,"pic/sdg16.png");
+            sdg17= new Baseclass(125,400,150,150,"pic/sdg17.png");
+            start= new Baseclass(125,250,150,150,"pic/start.png");
             logo= new Baseclass(displayWidth/2-19,displayHeight/2,1000,400,"pic/sdg.png"); 
             
     }
